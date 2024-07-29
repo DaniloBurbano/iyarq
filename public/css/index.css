@@ -27,7 +27,6 @@ body {
   color: rgb(9, 9, 9);
   background-color: transparent;
   position: absolute;
-  font-size: 50px;
   font-weight:400;
 }
 
@@ -228,7 +227,7 @@ h2 {
     width: 50%;
     bottom: 260px;
     left: 5%;
-    font-size: 20px;
+    font-size: 1.5em;
   }
 }
 
@@ -237,7 +236,7 @@ h2 {
     width: 50%;
     bottom: 260px;
     left: 5%;
-    font-size: 30px;
+    font-size: 2em;
   }
 
 }
@@ -247,7 +246,7 @@ h2 {
     width: 45%;
     bottom: 200px;
     left: 7%;
-    font-size: 40px;
+    font-size: 2.5em;
   }
   
 }
@@ -255,8 +254,8 @@ h2 {
 @media (min-width: 1400px) {
   .banner-text {
     width: 45%;
-    bottom: 90px;
+    bottom: 1em;
     left: 7%;
-    font-size: 50px;
+    font-size: 2.7em;
   }
 }
