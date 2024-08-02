@@ -332,7 +332,6 @@ h2 {
   .banner-text {
     width: 50%;
     position: absolute;
-    bottom: var(--bannerTextLocation);
     left: 5%;
     font-size: calc(var(--sizeFactor) * 1.5);
   }
@@ -341,9 +340,7 @@ h2 {
 @media(min-width: 768px) {
   .banner-text {
     width: 50%;
-    position: absolute;
-    bottom: var(--bannerTextLocation);
-    left: 5%;
+    top: 16em;
     font-size: calc(var(--sizeFactor) * 2);
   }
 
