@@ -63,7 +63,7 @@
   text-align: center;
   font-size: calc(var(--sizeFactor) * 1);
   color: var(--headerTextColor);
-  margin: calc(var(--sizeFactor));
+  margin: calc(var(--sizeFactor)*1.6);
   width: calc(var(--sizeFactor) * 10);
 }
 
