@@ -17,3 +17,21 @@ window.onscroll = function() {
   }
   prevScrollPos = currentScrollPos;
 }
+
+const buttonMenu = document.getElementById('button-menu');
+const nav = document.getElementById('nav');
+
+// Agrega un evento de clic al botón del menú
+buttonMenu.addEventListener('click', () => {
+    // Alterna la clase 'show' en la navegación para mostrar u ocultar el menú
+    nav.classList.toggle('show');
+});
+
+const closeButtons = document.querySelectorAll('.close-menu');
+closeButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        nav.classList.toggle('show');
+    });
+});
+
+
