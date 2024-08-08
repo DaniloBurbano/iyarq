@@ -348,7 +348,7 @@ h2 {
 
 @media (min-width: 359px) {
   .banner-text {
-    width: 85%;
+    width: 82%;
     padding: 2%;
     /* text-align: center; */
     font-size: calc(var(--sizeFactor) * 1.5);
