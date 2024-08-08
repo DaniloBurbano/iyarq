@@ -261,7 +261,7 @@ h2 {
   padding: 4% 7%;
   background-color: var(--backgroundCardColor);
   border-radius: 5px;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .our-team-left {
@@ -348,10 +348,12 @@ h2 {
 
 @media (min-width: 359px) {
   .banner-text {
-    width: 92%;
+    width: 85%;
     padding: 2%;
-    text-align: center;
+    /* text-align: center; */
     font-size: calc(var(--sizeFactor) * 1.5);
+    margin: 2% 2% 1% 2%;
+    padding: 0% 8%;
   }
 }
 
@@ -360,7 +362,7 @@ h2 {
     width: 73%;
     position: absolute;
     bottom: 4px;
-    text-align: center;
+    /* text-align: center; */
     font-size: calc(var(--sizeFactor) * 2);
   }
 
@@ -490,10 +492,10 @@ h2 {
 
 @media (min-width: 1100px) {
   .banner-text {
-    width: 28%;
+    width: 25%;
     position: absolute;
     bottom: var(--bannerTextLocation);
-    left: 6%;
+    left: 0%;
     font-size: calc(var(--sizeFactor) * 2.5);
   }
 
@@ -538,10 +540,11 @@ h2 {
 
 @media (min-width: 1400px) {
   .banner-text {
-    width: 28%;
+    width: 21%;
     position: absolute;
     bottom: var(--bannerTextLocation);
-    left: 6%;
+    left: 0%;
     font-size: calc(var(--sizeFactor) * 2.7);
+    text-align: left;
   }
 }

@@ -12,7 +12,7 @@ app.set('views', path.resolve(__dirname, "./views/"));
 
 app.get("/", (req, res) => {
   res.render('index', {
-    title: "INGENIERIA Y ARQUITECTURA",
+    title: "INGENIERÍA & ARQUITECTURA",
     stylesheetFile: "index.css"
   })
 });
