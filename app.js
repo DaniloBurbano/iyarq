@@ -12,7 +12,7 @@ app.set('views', path.resolve(__dirname, "./views/"));
 
 app.get("/", (req, res) => {
   res.render('index', {
-    title: "INGENIERÍA & ARQUITECTURA",
+    title: "Servicios de Ingeniería hidráulica, Arquitectura e Ingeniería estructural",
     stylesheetFile: "index.css"
   })
 });
