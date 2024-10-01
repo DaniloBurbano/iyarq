@@ -1,5 +1,5 @@
 {
-  "name": "ing_arq_soluciones",
+  "name": "iyarqcol",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -15,6 +15,6 @@
     "express": "^4.19.2"
   },
   "devDependencies": {
-    
+
   }
 }
