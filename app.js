@@ -17,8 +17,12 @@ app.get("/", (req, res) => {
   })
 });
 
-app.get('/services', (req,res)=>{
-  res.render('services')
+// app.get('/services', (req,res)=>{
+//   res.render('services')
+// });
+
+app.get('/sitemap.xml', (req,res)=>{
+  res.sendFile(path.resolve(__dirname, "./sitemap.xml"))
 });
 
 app.listen(PORT, () => {
